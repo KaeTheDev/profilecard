@@ -1,0 +1,21 @@
+/* CARD FOOTER RULESETS */
+.card__footer{
+    border-top: .1rem solid $neutral-grayish;
+    display: flex;
+    padding-left: 4.1rem;
+    padding-right: 5.2rem;
+    padding-bottom: 2.4rem;
+    padding-top: 2.4rem;
+}
+
+.card__item{
+    flex: 1;
+}
+
+.card__stat-title{
+    color: $neutral-gray;
+    font-weight: map-get($font-weights, regular);
+    font-size: 1.0rem;
+    line-height: 1.006rem;
+    letter-spacing: .15rem;
+}
